@@ -1252,7 +1252,8 @@ dCdFLtBQPtFQuCdKOrpndJNUFQIDSbetUKylhSUjcDVtbiQrWMRQhAwGUZyPneCGUjGBBTkLqxLAXXtB
 KfErkDaWMFZZeuqDmXKJEGHyToPUhPphfVhgUZgbIuRAtWnroImpJKqqmEZqeNQCKzhjIkKQHURWLXFw
 PBuijeoTSpsVLaOGuLVjMZXkBvVXwUuHfBihziiavGSYofPNeKsTXruMUumRRPQJzvSzJkKbtSipiqBd"""
 
-result = re.findall('[A-Z]{3}[a-z]{1}[A-Z]{3}', junk)
+result = re.findall('[a-z][A-Z]{3}[a-z]{1}[A-Z]{3}[a-z]', junk)
+
 
 
 print result
